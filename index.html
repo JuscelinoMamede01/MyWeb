@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Juscelino's portfolio</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="" class="logo">Juscelino's portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navBar">
+            <a href="#" class="active">Home</a>
+            <a href="#about">Sobre mim</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+    <!--section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Olá, me chamo </h3>
+            <h1>Juscelino Mamede!</h1>
+            <h3> Sou um<br><span id="myFrontName">Frontend Developer</span></h3>
+            <p>No ano de 2022, fui contemplado com uma bolsa integral no curso de Sistemas para Internet e, desde então,
+                tenho me preparado para a minha transição de carreira. Como estudante bolsista em tempo integral,
+                atualmente, procuro uma vaga de estágio na área de desenvolvimento Front-end, onde possa aplicar e
+                desenvolver todas as habilidades e conhecimentos que adquiri até o momento. Tenho me dedicado à vida
+                acadêmica, buscando sempre aprender mais e me atualizar constantemente para ser um profissional cada vez
+                mais qualificado.
+            </p>
+            <div class="social-media">
+                <a href="https://github.com/JuscelinoMamede01" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/juscelinomamede/" target="_blank"><i
+                        class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="https://drive.google.com/file/d/1Rvt2Jtiz0rJpvXevC5UXxfgpivbS7fo6/view?usp=share_link" class="btn"
+                download target="_blank">CV Download</a>
+        </div>
+        <div class="home-img">
+            <img src="img/mine.png" alt="">
+        </div>
+    </section>
+    <!--about section-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/profile-pic (8).png" alt="" class="img-prof">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Front-end Developer</h3>
+            <p>Nascido na cidade de Tucuruí em 1985, fui criado no núcleo urbano de Serra dos Carajás, PA. Esse núcleo
+                foi construído pela empresa VALE, onde meu pai trabalhou por 28 anos. No ano de 2006, decidi deixar a
+                minha família no Pará e me mudei para Recife<span id="pontos">...</span><span id="txt-pontos">. Desde
+                    então, estou morando nesta cidade maravilhosa que tanto amo. Hoje, sou casado com a mulher mais
+                    linda do meu mundo, pai de uma princesa chamada Júlia e, nas horas vagas, tento tocar guitarra. O
+                    período da pandemia foi um momento de grande superação,
+                    aprendizado e reajuste de vida, pois perdi meu pai e irmão em um período muito curto de tempo. Hoje,
+                    posso dizer que sou um marido, pai e filho melhor. Lutas sempre irão acontecer, mas aprendi a dar a
+                    resposta certa a ela e no momento certo.
+
+                    Sem dúvida, muitas habilidades terão que ser desenvolvidas. O mercado de trabalho na área de
+                    programação
+                    nos pede dedicação e constante atualização das tecnologias. Poder ter a oportunidade de elaborar
+                    projetos e liderar sua equipe em algum momento, com certeza nos trará coerência e discernimento
+                    para
+                    agir de uma forma analítica.
+                    Pretendo retornar ao mercado de trabalho ainda em 2023 por meio de uma oportunidade de estágio
+                    como
+                    desenvolvedor Front-end. Adiante, me tornarei um desenvolvedor web em uma grande empresa aqui no
+                    Brasil.
+                    Para um plano de um futuro a médio prazo, pretendo aplicar para vagas no mercado internacional.</p>
+            </span>
+            <button onclick="leiaMais()" id="btn-leia">Leia Mais</button>
+
+        </div>
+    </section>
+    <!--Section portfolio-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Meus <span>projetos</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/prot (2).jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Home Site Empregos</h4>
+                    <p>Projeto baseado em tela do Figma no projeto da 7days Alura</p>
+                    <a href="https://home-site-empregos.vercel.app/" target="_blank"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/prot (6).jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Clone Home Google</h4>
+                    <p>Tela Home do Google solicitada na cadeira de desenvolvimento Web da faculdade.</p>
+                    <a href="https://home-google.vercel.app/" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/prot (2).jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Juscelino CV Online</h4>
+                    <p>CV Online criado no Web development bootcamp da Udemy by The App Brewery</p>
+                    <a href="https://cvonlineteste.vercel.app/" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/prot (6).jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Em construção</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore alias reiciendis velit ea eos
+                        fuga libero a animi sapiente.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/prot (2).jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Em construção</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore alias reiciendis velit ea eos
+                        fuga libero a animi sapiente.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/prot (6).jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Em construção</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore alias reiciendis velit ea eos
+                        fuga libero a animi sapiente.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--contact section-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Fale <span> &nbsp comigo</span>!</h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Nome Completo">
+                <input type="email" placeholder="Digite seu e-mail">
+            </div>
+            <div class="input-box">
+                <input type="tel" id="telefone" placeholder="Nº Celular">
+                <input type="text" placeholder="Assunto">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Digite sua mensagem aqui."></textarea>
+            <input type="submit" value="Enviar" class="btn">
+
+        </form>
+    </section>
+    <footer>
+        <div class="footer-text">
+            <p>Copyright &copy; 2023.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
